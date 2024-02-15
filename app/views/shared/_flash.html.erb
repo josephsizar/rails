@@ -1,0 +1,9 @@
+<% if flash[:notice] %>
+<div id="alert1" class="px-4 container py-2 scale-y-100 origin-top  bg-yellow-200 text-yellow-600 mx-auto my-2  duration-500">
+    <%= flash[:notice]%>
+</div>
+
+ <%= render partial: "shared/script"%>
+
+<% end %>
+

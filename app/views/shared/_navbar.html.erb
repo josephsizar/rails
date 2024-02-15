@@ -1,0 +1,18 @@
+<div class="w-full h-[60px]  shadow-lg flex flex-row items-center justify-between px-4">
+<div class="brand text-2xl text-gray-700 font-bold">
+Gazzele
+</div>
+<div class="flex flex-row gap-2">
+    <%= link_to "Home",root_path,class:"bg-gray-400 text-gray-950 rounded-md boreder px-2 py-1 border-gray-500"%>
+    <%= link_to "About",about_path,class:"bg-gray-400 text-gray-950 rounded-md boreder px-2 py-1 border-gray-500"%>
+    <%= link_to "Rails Health",rails_health_check_path,class:"bg-gray-400 text-gray-950 rounded-md boreder px-2 py-1 border-gray-500"%>
+    
+</div>
+<button class="auth-part relative group rounded-full  bg-slate-100 w-[40px] h-[40px] border-[2px] shadow-lg border-gray-600 hover:bg-gray-600 hover:border-slate-100">
+    <div class="absolute flex flex-col rounded-md z-10 top-[50px] bg-gray-400 right-2 w-[100px] scale-y-0 delay-100 group-hover:scale-y-100 py-1 origin-top duration-100">
+        <%= link_to "Home",root_path,class:"px-2 py-1 hover:bg-gray-500"%>
+        <%= link_to "About",about_path,class:"px-2 py-1 hover:bg-gray-500"%>
+        <%= link_to "Rails Health",rails_health_check_path,class:"px-2 py-1 hover:bg-gray-500"%>
+    </div>
+</button>
+</div>
